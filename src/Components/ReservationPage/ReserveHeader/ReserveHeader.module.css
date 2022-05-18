@@ -1,0 +1,55 @@
+.reserveHeaderWrapper {
+    background-image: url("../../../utility/reservationBg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height : 550px;
+    position: relative;
+}
+.reservationTitleTexts {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+}
+.reservationTitleTexts h2 {
+    font-size: 34px;
+}
+.reservationTitleTexts p {
+    font-size: 22px
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .reservationTitleTexts h2 {
+        font-size: 44px;
+    }
+    .reservationTitleTexts p {
+        font-size: 32px
+    }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .reservationTitleTexts h2 {
+        font-size: 54px;
+    }
+    .reservationTitleTexts p {
+        font-size: 38px
+    }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .reservationTitleTexts h2 {
+        font-size: 64px;
+    }
+    .reservationTitleTexts p {
+        font-size: 42px
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

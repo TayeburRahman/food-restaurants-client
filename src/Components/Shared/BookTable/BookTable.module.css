@@ -1,0 +1,53 @@
+.BookTableWrapper {
+    background-image: url('../../../utility/book-table.jpg');
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.BookTableTexts {
+    text-align: center;
+}
+.BookTableTexts p {
+    margin: 0;
+    font-size: 22px;
+}
+.BookTableTexts img {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.bookInfo {
+    margin-top: 30px;
+}
+.formBg{
+    background-color: rgba(223, 223, 223, 0.8);
+}
+.InputGroup p {
+    text-align: left;
+}
+.bookInfo input {
+    margin-bottom: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+

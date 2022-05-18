@@ -1,0 +1,70 @@
+.headerWrapper {
+    background-image: url(../../../utility/aboutPageBg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height : 550px;
+    position: relative;
+}
+.headerTexts {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+}
+.headerWrapper h2 {
+    font-size: 34px;
+}
+.headerWrapper p {
+    font-size: 22px;
+}
+.headerWrapper li {
+    font-size: 18px;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .headerWrapper h2 {
+        font-size: 44px;
+    }
+    .contactTexts p {
+        font-size: 32px;
+    }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .headerWrapper h2 {
+        font-size: 54px;
+    }
+    .contactTexts p {
+        font-size: 38px;
+    }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .headerWrapper {
+        box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+        padding: 100px 0;
+        position: relative;
+        height : 550px;
+    }
+    .headerWrapper h2 {
+        font-size: 64px;
+        color: #000;
+    }
+    .headerWrapper p {
+        font-size: 42px;
+        color : #000;
+    }
+    .colorWhite {
+        color : #000;
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

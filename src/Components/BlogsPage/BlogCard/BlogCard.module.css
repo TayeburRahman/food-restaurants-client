@@ -1,0 +1,17 @@
+.cardWrapper {
+    padding-top: 50px;
+    cursor: pointer;
+}
+.cardImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardImg img {
+    max-width: 450px;
+    max-width: 450px;
+}
+.cardHeader {
+    background-color : transparent;
+    border-color : transparent;
+}

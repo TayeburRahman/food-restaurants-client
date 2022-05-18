@@ -1,0 +1,58 @@
+.contactHeaderWrapper {
+    background-image: url('../../../utility/FooterBg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height : 550px;
+    text-align: center;
+    position: relative;
+}
+.ContactTexts {
+    position: relative;
+}
+.contactTitles{
+    position: absolute;
+    top: 35%;
+}
+.contactTexts h2 {
+    font-size: 34px;
+}
+.contactTexts p {
+    font-size: 22px;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .contactTexts h2 {
+        font-size: 44px;
+    }
+    .contactTexts p {
+        font-size: 32px;
+    }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .contactTexts h2 {
+        font-size: 54px;
+    }
+    .contactTexts p {
+        font-size: 38px;
+    }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .contactTexts h2 {
+        font-size: 64px;
+    }
+    .contactTexts p {
+        font-size: 42px;
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

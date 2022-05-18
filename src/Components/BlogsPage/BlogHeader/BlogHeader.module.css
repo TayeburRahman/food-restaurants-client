@@ -1,0 +1,59 @@
+.blogHeaderWrapper {
+    background-image: url("../../../utility//blogBg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height : 550px;
+    position: relative;
+}
+
+.blogBannerTexts {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+}
+
+.blogBannerTexts h2 {
+    font-size: 34px;
+}
+.blogBannerTexts p {
+    font-size: 22px
+}
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .blogBannerTexts h2 {
+        font-size: 44px;
+    }
+    .blogBannerTexts p {
+        font-size: 32px;
+    }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .blogBannerTexts h2 {
+        font-size: 54px;
+    }
+    .blogBannerTexts p {
+        font-size: 38px;
+    }
+    .blogHeaderWrapper {
+        background-image: url("../../../utility//blogBanner.jpg");
+    }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .blogBannerTexts h2 {
+        font-size: 64px;
+    }
+    .blogBannerTexts p {
+        font-size: 42px;
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

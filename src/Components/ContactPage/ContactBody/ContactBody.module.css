@@ -1,0 +1,22 @@
+.contactBodyWrapper {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.contactBodyTexts {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contactBodyTexts p {
+    margin: 0;
+    font-size: 22px;
+}
+.contactBodyTexts img {
+    padding : 15px 0px;
+}
+.AddressWrapper {
+    padding-top: 50px;
+}
+.addressMar {
+    padding-bottom: 10px;
+}

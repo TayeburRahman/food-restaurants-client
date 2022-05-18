@@ -1,0 +1,11 @@
+.dashboardInfoCart{
+    background-color: rgb(245, 245, 245);
+}
+.income{
+    color: green;
+    font-size: 28px;
+}
+.expense {
+    color: blue;
+    font-size: 28px;
+}

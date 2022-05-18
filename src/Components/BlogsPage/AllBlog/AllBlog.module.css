@@ -1,0 +1,11 @@
+.allWrapper {
+    padding-top: 50px;
+    text-align: center;
+}
+.allWrapper p {
+    margin: 0;
+    font-size: 22px;
+}
+.allWrapper img {
+    padding : 15px 0px;
+}

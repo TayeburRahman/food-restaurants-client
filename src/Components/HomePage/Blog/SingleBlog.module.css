@@ -1,0 +1,43 @@
+.cardWrapper {
+    margin-top: 35px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.imgBlogChef {
+    margin-right: 10px;
+    position: absolute;
+    margin : -50px 0px 0px 0px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.messageText {
+    font-size: 18px;
+}
+.cardFooter {
+    padding: 10px 0px;
+}
+
+/** mall devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .postWrapper {
+        padding-top : 50px;
+        /* padding-bottom: 80px; */
+    }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

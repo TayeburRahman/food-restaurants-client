@@ -1,0 +1,12 @@
+.notFoundHeaderWrapper {
+    background-image: url('../../../utility/notFoundBg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+.titleTexts {
+    position: absolute;
+    top: 45%;
+}

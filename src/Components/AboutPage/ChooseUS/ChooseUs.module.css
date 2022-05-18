@@ -1,0 +1,41 @@
+.chooseUsWrapper {
+    padding-top: 50px;
+    background: none;
+}
+.ChooseUsTitlesText  {
+    text-align: center;
+}
+.ChooseUsTitlesText p {
+    margin: 0;
+    font-size: 22px;
+}
+.ChooseUsDescription p {
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+.ChooseUsTitlesText img {
+    margin-top: 15px;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .chooseUsWrapper {
+        background: url("../../../utility/aboutPageBg2.webp")no-repeat scroll left top;
+    }
+    .ChooseUsDescription div {
+        padding-bottom: 30px;
+    }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

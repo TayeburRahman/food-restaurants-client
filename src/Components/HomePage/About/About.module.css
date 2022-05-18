@@ -1,0 +1,27 @@
+.aboutWrapper {
+    background-image: url("../../../utility/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+.aboutCentralize{
+    display: flex;
+    justify-content: center;
+}
+.textContainer{
+    width : 75%;
+    text-align: center;
+    padding-top: 20px;
+}
+.textContainer h2{
+    padding-bottom: 20px;
+}
+.aboutTitleParagraph {
+    margin: 0;
+    font-size: 22px;
+}
+.aboutDescription{
+    padding-top: 20px;
+}

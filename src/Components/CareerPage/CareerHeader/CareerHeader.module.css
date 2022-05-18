@@ -1,0 +1,58 @@
+.careerHeaderWrapper {
+    background-image: url("../../../utility/customerMap1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height : 550px;
+    position: relative;
+    background-attachment: fixed;
+}
+.careerTitleTexts {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+}
+
+.careerTitleTexts h2 {
+    font-size: 34px;
+}
+.careerTitleTexts p {
+    font-size: 22px
+}
+
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .careerTitleTexts h2 {
+        font-size: 44px;
+    }
+    .careerTitleTexts p {
+        font-size: 32px;
+    }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .careerTitleTexts h2 {
+        font-size: 54px;
+    }
+    .careerTitleTexts p {
+        font-size: 38px;
+    }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .careerTitleTexts h2 {
+        font-size: 64px;
+    }
+    .careerTitleTexts p {
+        font-size: 42px;
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

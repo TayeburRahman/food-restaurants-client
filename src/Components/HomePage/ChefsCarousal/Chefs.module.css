@@ -1,0 +1,32 @@
+.chefDetails {
+    padding-top: 20px;
+    position: relative;
+}
+.chefOverlay {
+    position: absolute;
+    left : 0;
+    bottom : 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+    background-color: #fff;
+    text-align: center;
+    padding : 0px 16px;
+    cursor : pointer;
+}
+.chefDetails:hover .chefOverlay {
+    height: 50%;
+}
+.overlayText {
+    padding : 0 20px;
+}
+.socialIcons{
+    padding: 3px 0px;
+}
+
+.faSocial {
+    font-size: 18px;
+    margin: 0 4px;
+}

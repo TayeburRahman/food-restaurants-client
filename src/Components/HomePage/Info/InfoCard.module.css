@@ -1,0 +1,31 @@
+.iconBoxText {
+    display : flex;
+}
+.infoIcon {
+    margin-right: 15px;
+    padding: 10px 0px;
+    border-right: 2px solid lightgray;
+    padding-right: 10px;
+}
+.infoIcon img {
+    width: 50px;
+    height : 50px;
+}
+.infoText{
+    padding-top: 8px;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/** XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

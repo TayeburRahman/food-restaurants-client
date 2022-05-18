@@ -1,0 +1,112 @@
+.bannerWrapper {
+    background-image: url("../../../utility/banner_bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+    position: relative;
+}
+.bannerWrapper:after {
+    content: "";
+    position: absolute;
+    background: url("../../../utility/banner_overlay.png.webp");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 100%;
+    height: 100%;
+    bottom: -50px;
+    z-index: -1;
+    opacity: 0.3;
+}
+.bannerInnerText h5 {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 160px;
+    color: #ff6426;
+}
+.bannerInnerText h1 {
+    width: 100%;
+    padding: 15px 0px;
+    font-style: italic;
+    font-size: 30px;
+}
+.bannerInnerText p {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .bannerWrapper {     
+        background-size: 45%;
+      }
+    .bannerWrapper:after {
+        bottom: -100px;
+        opacity: 0.5;
+    }
+    .bannerInnerText h1 {
+        font-size: 36px;
+      }
+    .bannerInnerText h5 {
+        padding-top: 200px;
+    }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .bannerWrapper {
+        background-size: 40%;
+    }
+    .bannerWrapper:after {
+        bottom: -50px;
+        right: 5%;
+    }
+    .bannerInnerText h1 {
+        font-size: 44px;
+      }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .bannerWrapper {
+        background-size: 35%;
+    }
+    .bannerWrapper:after {
+        right: 10%;
+        opacity: 1;
+    }
+}
+
+/** Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .bannerWrapper {
+        background-size: 35%;
+    }
+    .bannerWrapper:after {
+        bottom : -50px;
+        right: 17%;
+    }
+    .bannerInnerText h1 { 
+        font-size: 48px;
+    }
+    .bannerInnerText p { 
+        font-size: 22px;
+    }
+}
+
+/** Extra extra large devices (large screen desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .bannerWrapper {
+        background-size: 26%;
+    }
+    .bannerWrapper:after {
+        bottom : -50px;
+        right: 25%;
+    }
+    .bannerInnerText h1 { 
+        font-size: 56px;
+    }
+    .bannerInnerText p { 
+        font-size: 24px;
+    }
+}

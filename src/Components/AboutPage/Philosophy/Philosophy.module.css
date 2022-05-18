@@ -1,0 +1,13 @@
+.philosophyWrapper img {
+    margin-top: 15px;
+}
+.philosophyWrapper h6 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 400;
+    padding-top: 50px;
+} 
+.philosophyWrapper p{
+    font-size: 18px;
+    padding-top: 20px;
+}

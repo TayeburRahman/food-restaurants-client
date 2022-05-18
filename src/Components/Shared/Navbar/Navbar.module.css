@@ -1,0 +1,88 @@
+.navbarWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbarInner {
+  padding: 14px 0px;
+}
+.customContainer {
+  padding: 0px 0px;
+}
+.Logo {
+  cursor: pointer;
+}
+.navbarBtn {
+  background-color: #fff;
+}
+.navbarUl {
+  padding-right: 0px;
+}
+.navbarList {
+  background-color: #fff;
+  text-align: center;
+  font-weight: 500;
+  padding: 0px 12px;
+}
+.isActive {
+  color: #000 !important;
+  font-size: 18px;
+}
+.inActive {
+  color: #000 !important;
+  font-size: 18px;
+}
+.login{
+  width : 80px
+}
+.login .navLink {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #ff6426;
+  color: #fff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.cartNumberReceiver{
+  position: relative;
+}
+.cartShopNumber{
+  position: absolute;
+}
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navbarWrapper {
+    padding-left : 0px;
+    padding-right: 0px;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbarList {
+    background-color: transparent;
+  }
+  .isActive {
+    border-bottom: 2px solid #000;
+  }
+}
+
+/** Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/** Extra extra large devices (large screen desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

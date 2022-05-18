@@ -1,0 +1,12 @@
+.commentBox {
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    border: 1px solid lightgray; 
+    padding : 2px; 
+    margin-bottom: 10px;
+}
+.commentName {
+    margin: 0;
+    margin-top: 5px;
+}

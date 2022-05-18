@@ -1,0 +1,73 @@
+.videoWrapper {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.videoBtn {
+  border: none;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 1rem;
+  background: #efeeee;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+  box-shadow: 0px 5px 10px -5px gray;
+}
+.videoBtn:active {
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.1),
+    inset -10px -10px 10px rgba(255, 255, 255, 0.6);
+}
+.videoBtn:active .faPlay {
+  color: gray;
+}
+.videoBtn .faPlay {
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  color: #ff6426;
+}
+.videoTitle {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ff6426;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .videoWrapper {
+    padding-top: 30px;
+    justify-content: left;
+  }
+  .videoBtn {
+    padding: 1.5rem;
+  }
+  .videoBtn .faPlay {
+    font-size: 2.5rem;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .videoWrapper {
+    padding-top: 30px;
+  }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .videoBtn .faPlay {
+    font-size: 3rem;
+  }
+}
+
+/** Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .videoWrapper {
+    padding-top: 60px;
+  }
+}
+
+/** Extra extra large devices (large screen desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

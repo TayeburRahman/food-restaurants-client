@@ -20,5 +20,5 @@ This project based on A Restaurant Website with booking table through online & o
 - Admin can review the food order from a customer and can track the book reservation table.
 - For project hosting used firebase and heroku.
 
-##### Backend Github Link [Repo](https://github.com/RahulGhosh305/dingo-restaurant-server).
+##### ![Project Landing page](https://i.ibb.co/5h0jrTQ/dingo-restaurant-rg.png)
  

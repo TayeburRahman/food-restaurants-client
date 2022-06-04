@@ -66,7 +66,7 @@ const Sidebar = () => {
     },
   ];
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/allAdmin")
+    fetch("https://polar-eyrie-50368.herokuapp.com/allAdmin")
       .then((res) => res.json())
       .then((data) => {
         setAdminEmails(data);
@@ -77,7 +77,8 @@ const Sidebar = () => {
   const isAdmin = adminEmails.find(
     (adminEmail) => adminEmail.email === isLoggedIn.email
   );
-  // console.log(isAdmin)
+  // console.log(isAdmin);
+
   return (
     <div style={{ marginTop: 20 }}>
       <div className="container-fluid">

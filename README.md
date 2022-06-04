@@ -21,10 +21,4 @@ This project based on A Restaurant Website with booking table through online & o
 - For project hosting used firebase and heroku.
 
 ##### Backend Github Link [Repo](https://github.com/RahulGhosh305/dingo-restaurant-server).
-
-
-
-
- PORT=5001
-USER_PASSWORD=Al9JR9QdmEpmdW9q
-USER_NAME=food-restaurant
+ 

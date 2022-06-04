@@ -4,7 +4,10 @@
 
 ## (MERN Stack Project)
 
-This project based on A Restaurant Website with booking table through online & ordering foods. [Demo Project](https://dingo-restaurant-rg.web.app/).
+This project based on A Restaurant Website with booking table through online & ordering foods. [Demo Project](https://dingo-restaurant-rg.web.app/). 
+### Technology Used:  
+ React, React Bootstrap, React Router, React Hook Form, Axios, CSS, React Ratings, JWT
+                                          Firebase, Authentication, Nodejs, ExpressJs, MongoDB, Heroku Hosting, Firebase Hosting.
 
 ### Features
 

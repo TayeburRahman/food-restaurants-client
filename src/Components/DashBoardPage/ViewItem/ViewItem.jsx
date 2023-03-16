@@ -12,7 +12,7 @@ const ViewItem = () => {
   let id = ID.ID;
   // console.log(id)
   useEffect(() => {
-    fetch(`https://sheltered-crag-23788.herokuapp.com/singleMenu/${id}`)
+    fetch(`https://restaurants-server.vercel.app/singleMenu/${id}`)
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)

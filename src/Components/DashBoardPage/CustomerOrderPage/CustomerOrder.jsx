@@ -12,7 +12,7 @@ const CustomerOrder = () => {
 
   useEffect(() => {
     fetch(
-      `https://sheltered-crag-23788.herokuapp.com/customerOrderMenu?email=${email}`,
+      `https://restaurants-server.vercel.app/customerOrderMenu?email=${email}`,
       {
         headers: {
           authorization: `Bearer ${localStorage.getItem("idToken")}`,

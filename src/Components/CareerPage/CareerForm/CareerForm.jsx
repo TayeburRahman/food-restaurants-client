@@ -1,9 +1,9 @@
 import {
-  faBook,
-  faEnvelope,
-  faLink,
-  faPhoneAlt,
-  faUser,
+    faBook,
+    faEnvelope,
+    faLink,
+    faPhoneAlt,
+    faUser
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -26,7 +26,7 @@ const CareerForm = () => {
     },
   });
   const onSubmit = (data) => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/addCareerMessage", {
+    fetch("https://restaurants-server.vercel.app/addCareerMessage", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {

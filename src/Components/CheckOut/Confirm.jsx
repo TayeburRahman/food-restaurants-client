@@ -40,7 +40,7 @@ const Confirm = ({ nextStep, prevStep, values }) => {
     };
     // console.log(values);
     //* PROCESS TO SERVER FORM
-    fetch("https://sheltered-crag-23788.herokuapp.com/makeFoodOrder", {
+    fetch("https://restaurants-server.vercel.app/makeFoodOrder", {
       method: "POST",
       body: JSON.stringify(values),
       headers: {

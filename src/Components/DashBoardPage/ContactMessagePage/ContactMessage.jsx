@@ -4,7 +4,7 @@ import ContactMessageCard from "./ContactMessageCard/ContactMessageCard";
 const ContactMessage = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/allContactUsMessage")
+    fetch("https://restaurants-server.vercel.app/allContactUsMessage")
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)

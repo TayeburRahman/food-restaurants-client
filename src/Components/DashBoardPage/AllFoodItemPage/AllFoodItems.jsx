@@ -5,7 +5,7 @@ const AllFoodItems = () => {
   const [allFoodCategory, setAllFoodCategory] = useState([]);
 
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/allFoods")
+    fetch("https://restaurants-server.vercel.app/allFoods")
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)

@@ -64,7 +64,7 @@ const NewBlogPost = () => {
     };
     // console.log(sendBlogData)
 
-    fetch("https://sheltered-crag-23788.herokuapp.com/addBlog", {
+    fetch("https://restaurants-server.vercel.app/addBlog", {
       method: "POST",
       body: JSON.stringify(sendBlogData),
       headers: {

@@ -7,7 +7,7 @@ import SingleBlogCard from "./SingleBlogCard";
 const BlogCard = () => {
   const [blogCardData, setBlogCardData] = useState([]);
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/homePageBlog")
+    fetch("https://restaurants-server.vercel.app/homePageBlog")
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)

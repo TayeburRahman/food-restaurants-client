@@ -5,7 +5,7 @@ const OrderList = () => {
   const [foodOrders, setFoodOrders] = useState([]);
 
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/allFoodOrders")
+    fetch("https://restaurants-server.vercel.app/allFoodOrders")
       .then((res) => res.json())
       .then((data) => {
         // console.log(data);

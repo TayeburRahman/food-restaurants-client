@@ -1,14 +1,14 @@
 import {
-  faFacebookF,
-  faGoogle,
-  faInstagram,
-  faLinkedinIn,
-  faTwitter,
+    faFacebookF,
+    faGoogle,
+    faInstagram,
+    faLinkedinIn,
+    faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import {
-  faEnvelopeOpen,
-  faHome,
-  faPhoneAlt,
+    faEnvelopeOpen,
+    faHome,
+    faPhoneAlt
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -36,7 +36,7 @@ const Footer = () => {
   });
   const onSubmit = (data) => {
     console.log(data);
-    fetch("https://sheltered-crag-23788.herokuapp.com/addNewsletter", {
+    fetch("https://restaurants-server.vercel.app/addNewsletter", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {

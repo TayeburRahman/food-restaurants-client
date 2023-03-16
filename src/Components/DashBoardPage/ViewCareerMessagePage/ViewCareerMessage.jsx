@@ -13,7 +13,7 @@ const ViewCareerMessage = () => {
   };
   useEffect(() => {
     fetch(
-      `https://sheltered-crag-23788.herokuapp.com/singleCareerMessage/${ID}`
+      `https://restaurants-server.vercel.app/singleCareerMessage/${ID}`
     )
       .then((res) => res.json())
       .then((json) => {

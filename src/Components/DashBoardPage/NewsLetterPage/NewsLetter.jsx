@@ -4,7 +4,7 @@ import NewsLetterCard from "./NewsLetterCard";
 const NewsLetter = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/allNewsLetter")
+    fetch("https://restaurants-server.vercel.app/allNewsLetter")
       .then((res) => res.json())
       .then((json) => {
         // console.log(json)

@@ -1,25 +1,25 @@
 import {
-  faComments,
-  faHeart,
-  faPaperPlane,
+    faComments,
+    faHeart,
+    faPaperPlane
 } from "@fortawesome/free-regular-svg-icons";
 import {
-  faBars,
-  faChair,
-  faChartLine,
-  faClipboard,
-  faCoffee,
-  faCompress,
-  faDollarSign,
-  faEnvelopeOpen,
-  faHome,
-  faKey,
-  faPlusSquare,
-  faSignOutAlt,
-  faTruck,
-  faUsers,
-  faUserShield,
-  faUtensils,
+    faBars,
+    faChair,
+    faChartLine,
+    faClipboard,
+    faCoffee,
+    faCompress,
+    faDollarSign,
+    faEnvelopeOpen,
+    faHome,
+    faKey,
+    faPlusSquare,
+    faSignOutAlt,
+    faTruck,
+    faUsers,
+    faUserShield,
+    faUtensils
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
@@ -66,7 +66,7 @@ const Sidebar = () => {
     },
   ];
   useEffect(() => {
-    fetch("https://polar-eyrie-50368.herokuapp.com/allAdmin")
+    fetch("https://restaurants-server.vercel.app/allAdmin")
       .then((res) => res.json())
       .then((data) => {
         setAdminEmails(data);

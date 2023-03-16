@@ -26,7 +26,7 @@ const BookTable = () => {
   });
   const onSubmit = (data) => {
     // console.log(data)
-    fetch("https://sheltered-crag-23788.herokuapp.com/addReservation", {
+    fetch("https://restaurants-server.vercel.app/addReservation", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {

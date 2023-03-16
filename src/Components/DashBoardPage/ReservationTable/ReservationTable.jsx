@@ -4,7 +4,7 @@ import ReservationCard from "./ReservationCard";
 const ReservationTable = () => {
   const [reservationData, setReservationData] = useState([]);
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/allReservation")
+    fetch("https://restaurants-server.vercel.app/allReservation")
       .then((res) => res.json())
       .then((jsonData) => {
         // console.log(jsonData);

@@ -15,7 +15,7 @@ const MenuSingleHeader = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    fetch(`https://sheltered-crag-23788.herokuapp.com/singleMenu/${id}`)
+    fetch(`https://restaurants-server.vercel.app/singleMenu/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);

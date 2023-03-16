@@ -17,7 +17,7 @@ const AddAdmin = () => {
   });
   const onSubmit = (data) => {
     const addAdmin = data;
-    fetch("https://polar-eyrie-50368.herokuapp.com/admin", {
+    fetch("https://restaurants-server.vercel.app/admin", {
       method: "POST",
       body: JSON.stringify(addAdmin),
       headers: {

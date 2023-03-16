@@ -1,17 +1,43 @@
-import React from "react";
+import React, { Fragment, useEffect, useState } from "react";
+import { Rings } from "react-loader-spinner";
 import headingDark from "../../../utility/heading-dark.png";
 import sitePic3 from "../../../utility/menuDishSiteImg3.jpg";
-import Card from "../Card/Card";
-import useFetch from "../useFetch.js";
+import DinnerCard from "../Card/DinnerCard";
 import styles from "./Dinner.module.css";
 
 const Dinner = () => {
-  const [dinnerFood] = useFetch(
-    "https://sheltered-crag-23788.herokuapp.com/DinnerFood"
-  );
-  const [dinnerDrink] = useFetch(
-    "https://sheltered-crag-23788.herokuapp.com/DinnerDrink"
-  );
+
+
+
+  const [dinnerFood, setBreakfastFood] = useState([])
+  const [dinnerDrink, setBreakfastDrink] = useState([])
+
+
+  // const [dinnerFood] = useFetch(
+  //   "https://restaurants-server.vercel.app/DinnerFood"
+  // );
+  // const [dinnerDrink] = useFetch(
+  //   "https://restaurants-server.vercel.app/DinnerDrink"
+  // );
+
+  useEffect(() => {
+    fetch(`https://restaurants-server.vercel.app/DinnerFood`)
+      .then((res) => res.json())
+      .then((data) => {
+        setBreakfastFood(data);
+        console.log('breakfastFood', data)
+      });
+
+    fetch(`https://restaurants-server.vercel.app/DinnerDrink`)
+      .then((res) => res.json())
+      .then((data) => {
+        setBreakfastDrink(data);
+        console.log('breakfastDrink', data)
+      });
+
+
+  }, [ ]);
+
   return (
     <>
       <div className="container">
@@ -29,17 +55,35 @@ const Dinner = () => {
             </div>
             <div className={styles.dinner}>
               <div className="row">
-                <div className="col-md-6">
-                  {dinnerFood.map((singleFood) => (
-                    <Card food={singleFood} key={Math.random()} />
-                  ))}
-                </div>
+                {
+                  dinnerFood?.length && dinnerDrink.length ? (
+                    <Fragment>
+                      <div className="col-md-6">
+                        {dinnerFood.map((singleFood) => (
+                          <DinnerCard food={singleFood} key={Math.random()} />
+                        ))}
+                      </div>
 
-                <div className="col-md-6">
-                  {dinnerDrink.map((singleFood) => (
-                    <Card food={singleFood} key={Math.random()} />
-                  ))}
-                </div>
+                      <div className="col-md-6">
+                        {dinnerDrink.map((singleFood) => (
+                          <DinnerCard food={singleFood} key={Math.random()} />
+                        ))}
+                      </div>
+                    </Fragment>
+                  ) :
+                    (
+                      <Rings
+                        height="80"
+                        width="80"
+                        color="#4fa94d"
+                        radius="6"
+                        wrapperStyle={{}}
+                        wrapperClass=""
+                        visible={true}
+                        ariaLabel="rings-loading"
+                      />
+                    )
+                }
               </div>
             </div>
           </div>

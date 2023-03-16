@@ -7,7 +7,7 @@ import FoodCard from "./FoodCard";
 const Food = () => {
   const [menuData, setMenuData] = useState([]);
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/HomeMenu")
+    fetch("https://restaurants-server.vercel.app/HomeMenu")
       .then((res) => res.json())
       .then((data) => setMenuData(data));
   }, []);

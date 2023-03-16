@@ -5,7 +5,7 @@ const Admins = () => {
   const [adminInfo, setAdminInfo] = useState([]);
   console.log("adminInfo", adminInfo);
   useEffect(() => {
-    fetch("https://polar-eyrie-50368.herokuapp.com/allAdmin")
+    fetch("https://restaurants-server.vercel.app/allAdmin")
       .then((res) => res.json())
       .then((data) => {
         setAdminInfo(data);

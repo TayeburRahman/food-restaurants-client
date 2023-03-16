@@ -9,7 +9,7 @@ import ReviewImgCard from "./ReviewImgCard";
 const Review = () => {
   const [reviewData, setReviewData] = useState([]);
   useEffect(() => {
-    fetch("https://sheltered-crag-23788.herokuapp.com/restaurantReview")
+    fetch("https://restaurants-server.vercel.app/restaurantReview")
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)

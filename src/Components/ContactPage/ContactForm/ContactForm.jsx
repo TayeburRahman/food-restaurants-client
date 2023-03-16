@@ -1,7 +1,7 @@
 import {
-  faComments,
-  faPhoneAlt,
-  faUser,
+    faComments,
+    faPhoneAlt,
+    faUser
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -23,7 +23,7 @@ export default function App() {
   });
   const onSubmit = (data) => {
     // console.log(data)
-    fetch("https://sheltered-crag-23788.herokuapp.com/contactUsMessage", {
+    fetch("https://restaurants-server.vercel.app/contactUsMessage", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {

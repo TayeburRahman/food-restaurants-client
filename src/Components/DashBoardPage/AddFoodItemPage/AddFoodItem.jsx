@@ -68,7 +68,7 @@ const AddFoodItem = () => {
     };
     console.log(sendFormMenuData);
 
-    fetch("https://sheltered-crag-23788.herokuapp.com/addMenu", {
+    fetch("https://restaurants-server.vercel.app/addMenu", {
       method: "POST",
       body: JSON.stringify(sendFormMenuData),
       headers: {

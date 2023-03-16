@@ -8,7 +8,7 @@ const CustomerOrderView = () => {
   console.log("ID", ID);
   useEffect(() => {
     fetch(
-      `https://sheltered-crag-23788.herokuapp.com/singleFoodOrderView/${ID}`
+      `https://restaurants-server.vercel.app/singleFoodOrderView/${ID}`
     )
       .then((res) => res.json())
       .then((data) => {

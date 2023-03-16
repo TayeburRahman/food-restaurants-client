@@ -1,9 +1,9 @@
 import {
-  faCalendar,
-  faComment,
-  faEnvelope,
-  faPlusSquare,
-  faUser,
+    faCalendar,
+    faComment,
+    faEnvelope,
+    faPlusSquare,
+    faUser
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -26,7 +26,7 @@ const CommentForm = () => {
   });
   const onSubmit = (data) => {
     // console.log(data)
-    fetch("https://sheltered-crag-23788.herokuapp.com/addRestaurantReview", {
+    fetch("https://restaurants-server.vercel.app/addRestaurantReview", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {

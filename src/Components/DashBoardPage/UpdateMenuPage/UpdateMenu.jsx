@@ -22,7 +22,7 @@ const UpdateMenu = () => {
   // console.log(id)
   //* GET SINGLE DATA
   useEffect(() => {
-    fetch(`https://sheltered-crag-23788.herokuapp.com/updateMenu/${id}`)
+    fetch(`https://restaurants-server.vercel.app/updateMenu/${id}`)
       .then((res) => res.json())
       .then((json) => {
         // console.log(json);
@@ -100,7 +100,7 @@ const UpdateMenu = () => {
 
     //* PATCH / UPDATE SINGLE DATA
     fetch(
-      `https://sheltered-crag-23788.herokuapp.com/toModifyServerData/${id}`,
+      `https://restaurants-server.vercel.app/toModifyServerData/${id}`,
       {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },

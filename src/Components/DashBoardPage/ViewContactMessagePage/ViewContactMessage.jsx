@@ -13,7 +13,7 @@ const ViewContactMessage = () => {
   };
   useEffect(() => {
     fetch(
-      `https://sheltered-crag-23788.herokuapp.com/singleContactUsMessage/${ID}`
+      `https://restaurants-server.vercel.app/singleContactUsMessage/${ID}`
     )
       .then((res) => res.json())
       .then((json) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './Card.module.css';
-const Card = (props) => {
+const DinnerCard = (props) => {
     const { title, shortDescription, price, _id } = props.food
     const navigate = useNavigate()
     const handleGoSinglePage = (title, price) => {
@@ -26,4 +26,4 @@ const Card = (props) => {
     );
 };
 
-export default Card;       
+export default DinnerCard;   

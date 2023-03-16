@@ -13,7 +13,7 @@ const AllFoodCard = (props) => {
   // DELETE
   const deleteSingleMenu = (id) => {
     // console.log(id);
-    fetch(`https://sheltered-crag-23788.herokuapp.com/deleteSingleMenu/${id}`, {
+    fetch(`https://restaurants-server.vercel.app/deleteSingleMenu/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
